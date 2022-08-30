@@ -1,0 +1,77 @@
+* {
+    font-family: 'Arial',  sans-serif;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/* Common rules */
+
+:root {
+    --bool-task: #47adf1;
+    --bool-editorial: #45abea;
+    --bool-q1goals: #9c72e4;
+    --bool-recruiting: #64c0a9;
+    --bool-mobile: #f29e33;
+    --bool-website: #d863a1;
+    --bool-sales: #b0c926;
+
+}
+
+/* header */
+
+#header_site {
+    background-color: white;
+    padding: 10px;
+}
+
+.logo {
+    height: 40px;
+    vertical-align: middle;
+}
+ 
+.logo_name {
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: 600;
+    height: 40px;
+    vertical-align: middle;
+
+}
+
+/* main */
+
+.container_task {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.button {
+    padding-bottom: 10px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    color: gray;
+}
+
+.add_task {
+    background-color: var(--bool-task);
+    color: white;
+    height: 30px;
+}
+
+.add_section {
+    height: 30px;
+}
