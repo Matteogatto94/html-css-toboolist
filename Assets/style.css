@@ -2,6 +2,7 @@
     font-family: 'Arial',  sans-serif;
       margin: 0;
       box-sizing: border-box;
+      padding: 0;
 }
 
 body {
@@ -75,3 +76,92 @@ button {
 .add_section {
     height: 30px;
 }
+
+.main_container {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px; 
+}
+
+.riga_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.riga {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.titolo_riga {
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.cross {
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 2px;
+    color: red;
+    margin-right: 10px;
+}
+.check {
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 2px;
+    color: green;
+    margin-right: 10px;
+    
+}
+
+.badge {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+#editorial {
+    background-color: var(--bool-editorial);
+}
+
+#goals {
+    background-color: var(--bool-q1goals);
+}
+
+#recruiting {
+    background-color: var(--bool-recruiting);
+}
+
+#mobile {
+    background-color: var(--bool-mobile);
+}
+
+#website {
+    background-color: var(--bool-website);
+}
+
+#sales {
+    background-color: var(--bool-sales);
+}
+
+/* footer */
+
